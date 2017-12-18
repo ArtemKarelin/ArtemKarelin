@@ -9,16 +9,16 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int A[10][10];
+	int A[10][10];//Массив
 	int i, j;
-	srand(time(NULL));
+	srand(time(NULL));//Оператор рандому
 	cout << "Mass A" << endl << endl;
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
 			A[i][j] = rand() % 10;
-			cout << " " << A[i][j] << " " << endl;
+			cout << " " << A[i][j] << " " << endl;//Вывод
 		}
 	}
 	system("pause");
